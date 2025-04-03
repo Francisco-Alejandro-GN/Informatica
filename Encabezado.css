@@ -1,0 +1,23 @@
+@charset "utf-8";
+.cotenido {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+
+.subtitulo {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 24px;
+	text-decoration: underline;
+	color: #09C;
+	text-align: center;
+}
+.TITULO {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 36px;
+	font-style: italic;
+	color: #039;
+	text-decoration: underline;
+	text-align: center;
+}

@@ -1,0 +1,7 @@
+@charset "utf-8";
+Subtitulo {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	color: #000;
+	text-decoration: underline overline;
+}

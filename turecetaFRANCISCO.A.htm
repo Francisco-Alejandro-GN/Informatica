@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Tu receta</title>
+<link href="../../SITIO_FRANCISCO/estilococina.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+#form1 {
+	background-color: #FFF;
+	border: 5px double #A3D3F1;
+	padding: 10px;
+	width: 512px;
+	margin-right: auto;
+	margin-left: auto;
+}
+-->
+</style></head>
+
+<body>
+<h1>Tu receta</h1>
+<p>Puedes realizar una petici&oacute;n para agregar un medicamento a nuestro catalogo, lo analizaremos y decidiremos si es necesario</p>
+<hr />
+<form action="http://localhost/recibirrecetaFRANCISCO.A.php" method="post" name="form1" target="_blank" id="form1">
+  <table width="483" border="0" cellspacing="2">
+    <tr>
+      <td width="120">Tu nombre: </td>
+      <td width="353"><input name="nombre" type="text" id="nombre" maxlength="50" />
+        <label for="apelldo"></label>
+      <input name="apelldo" type="text" id="apelldo" maxlength="50" /></td>
+    </tr>
+    <tr>
+      <td>Tu e-mail:</td>
+      <td><input name="email" type="text" id="email" maxlength="40" />
+        <label for="email"></label>
+      <input name="email" type="text" id="email" maxlength="40" /></td>
+    </tr>
+  </table>
+  <hr />
+  <table width="515" border="0" cellspacing="2">
+    <tr>
+      <td width="154">Nombre 
+        del medicamento:</td>
+      <td width="359"><input name="Nombre de medicamento" type="password" id="Nombre de medicamento" size="45" maxlength="25" /></td>
+    </tr>
+    <tr>
+      <td>Tipo:</td>
+      <td><select name="tipo" id="tipo">
+        <option>Estomacal</option>
+        <option>Cabeza</option>
+        <option>Oido</option>
+        <option>Corporal</option>
+        <option>Psicologico</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td colspan="2">Usos:</td>
+    </tr>
+    <tr>
+      <td colspan="2"><textarea name="Usos" id="Usos" cols="50" rows="5"></textarea></td>
+    </tr>
+  </table>
+  <table width="483" border="0" cellspacing="2">
+    <tr>
+      <td width="387">&iquest;Desea recibir informaci&oacute;n sobre la respuesta a su petici&oacute;n?
+      <hr /></td>
+      <td width="86"><input type="checkbox" name="checkbox" id="checkbox" />
+      <label for="checkbox">SI</label>
+      <hr /></td>
+    </tr>
+    <tr>
+      <td colspan="2"><p>&iquest;Qu&eacute; nivel de prioridad tiene?</p>
+        <p>
+          <input type="radio" name="radio" id="Mucha" value="Mucha" />
+          Alto
+        </p>
+        <p>
+          <input type="radio" name="radio" id="Intermedia" value="Intermedia" />
+          <label for="Intermedia">Intermedia</label>
+        </p></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><input type="submit" name="button3" id="button3" value="Enviar" />
+        <input type="reset" name="button3" id="button4" value="Borrar" /></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
